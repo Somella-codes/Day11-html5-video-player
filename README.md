@@ -1,2 +1,21 @@
 # Day11-html5-video-player
-Day 11/30: Native HTML5 video player. MP4 + MOV fallback using &lt;source> tags. No JS, no frameworks. Learning in public 🚀
+ 
+Native HTML5 video player built with freeCodeCamp's Responsive Web Design curriculum.
+
+### What I Built
+A simple video player using only HTML5. No JavaScript, no frameworks.
+
+**Key feature:** Multiple `<source>` tags for format fallbacks.  
+The browser tries MP4 first, then falls back to MOV if needed.
+
+### Screenshot
+![freeCodeCamp Completion](screenshot.png)
+*freeCodeCamp "Congratulations" screen after completing the HTML Video Player workshop*
+
+### Code
+```html
+<video controls width="100%">
+  <source src="video.mp4" type="video/mp4">
+  <source src="video.mov" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>

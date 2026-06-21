@@ -9,7 +9,7 @@ A simple video player using only HTML5. No JavaScript, no frameworks.
 The browser tries MP4 first, then falls back to MOV if needed.
 
 ### Screenshot
-![freeCodeCamp Completion](screenshot.png)
+![freeCodeCamp Completion](Screenshot_20260616_171541_Samsung.jpg)
 *freeCodeCamp "Congratulations" screen after completing the HTML Video Player workshop*
 
 ### Code
